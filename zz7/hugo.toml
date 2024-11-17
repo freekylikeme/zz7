@@ -1,0 +1,18 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'zz7'
+theme = 'cyberscape'
+enableEmoji = true
+[menus]
+  [[menus.main]]
+    name = 'Posty'
+    pageRef = '/post/'
+    weight = 10
+  [[menus.main]]
+    name = 'Ksiazki'
+    pageRef = '/post/2024-09-17-ksiazki-ktore-polecam'
+    weight = 20
+  [[menus.main]]
+    name = 'Kontakt'
+    pageRef = '/kontakt'
+    weight = 30
